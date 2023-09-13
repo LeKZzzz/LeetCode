@@ -84,16 +84,10 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="E:/LeetCode/main.cpp">
+		<Unit filename="E:/LeetCode/src/header.h">
 			<Option target="LeetCode"/>
 		</Unit>
-		<Unit filename="E:/LeetCode/src/Q1.h">
-			<Option target="LeetCode"/>
-		</Unit>
-		<Unit filename="E:/LeetCode/src/Q26.h">
-			<Option target="LeetCode"/>
-		</Unit>
-		<Unit filename="E:/LeetCode/src/Q27.h">
+		<Unit filename="E:/LeetCode/src/leetcode/editor/cn/Q2208.cpp">
 			<Option target="LeetCode"/>
 		</Unit>
 		<Unit filename="E:/LeetCode/CMakeLists.txt">

@@ -1,19 +1,41 @@
-#include <iostream>
-#include <stdio.h>
-#include "src/Q27.h"
+#include "iostream"
+#include "iomanip"  //setprecision() setw() setiosflags()
+#include "string"
+#include "iterator" //begin() end()
+#include "memory"   //auto_ptr<> shared_ptr<> unique_ptr<>
+#include "algorithm"    //find()
+#include "fstream"
+#include "vector"   //向量容器
+#include "deque"  //双端队列容器
+#include "list" //双向链表容器
+#include "utility" //键值对类模板 move()
+#include "map"  //映射容器
+#include "set"  //集合容器
+#include "stdlib.h" //abs()
+
+using namespace std;
+
+class A {
+private:
+
+public:
+    int a;
+
+    A(A &&b) noexcept {
+        cout << "move" << endl;
+        a = b.a;
+    }
+
+    A() {
+        a = 1;
+        cout << "constructor" << endl;
+    }
+};
 
 int main() {
-    int result;
-    int array[8], val, i;
-    int returnSize=0;
-    for (i = 0; i < 8; i++) {
-        scanf("%d", &array[i]);
+    int result = 0;
+    for (int i = 1; (i * (i + 1)) <= 200; ++i) {
+        result += i * (i + 1);
     }
-    scanf("%d", &val);
-
-    result = removeElement(array, 8,val);
-    for (i = 0; i < result; i++) {
-        printf("%d\n", array[i]);
-    }
-    return 0;
+    cout << hex << result;
 }
