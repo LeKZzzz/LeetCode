@@ -12,7 +12,7 @@
 #include <numeric>
 #include <queue>
 #include "map"
-#include "algorithm"
+#include <algorithm>
 
 using namespace std;
 
