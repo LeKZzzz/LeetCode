@@ -17,6 +17,7 @@
 #include "utility"
 #include <set>
 #include <stack>
+#include "bitset"
 
 using namespace std;
 
