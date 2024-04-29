@@ -15,18 +15,16 @@
 class Solution {
 public:
     vector<int> reverseBookList(ListNode *head) {
-        ListNode *pre = nullptr, *cur = head, *tmp;
+        ListNode *p = head;
+        stack<int> stk;
         vector<int> res;
-        while (cur != nullptr) {
-            tmp = cur->next;
-            cur->next = pre;
-            pre = cur;
-            cur = tmp;
-        }
-        ListNode *p = pre;
         while (p != nullptr) {
-            res.push_back(p->val);
+            stk.push(p->val);
             p = p->next;
+        }
+        while (!stk.empty()) {
+            res.push_back(stk.top());
+            stk.pop();
         }
         return res;
     }

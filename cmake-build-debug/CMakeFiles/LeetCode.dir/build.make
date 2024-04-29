@@ -58,34 +58,34 @@ include CMakeFiles\LeetCode.dir\progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles\LeetCode.dir\flags.make
 
-CMakeFiles\LeetCode.dir\src\leetcode\editor\cn\Q453.cpp.obj: CMakeFiles\LeetCode.dir\flags.make
-CMakeFiles\LeetCode.dir\src\leetcode\editor\cn\Q453.cpp.obj: E:\LeetCode\src\leetcode\editor\cn\Q453.cpp
-CMakeFiles\LeetCode.dir\src\leetcode\editor\cn\Q453.cpp.obj: CMakeFiles\LeetCode.dir\compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\LeetCode\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/LeetCode.dir/src/leetcode/editor/cn/Q453.cpp.obj"
-	$(CMAKE_COMMAND) -E cmake_cl_compile_depends --dep-file=CMakeFiles\LeetCode.dir\src\leetcode\editor\cn\Q453.cpp.obj.d --working-dir=E:\LeetCode\cmake-build-debug --filter-prefix="注意: 包含文件:  " -- "C:\PROGRA~2\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\bin\Hostx86\x86\cl.exe" @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /showIncludes /FoCMakeFiles\LeetCode.dir\src\leetcode\editor\cn\Q453.cpp.obj /FdCMakeFiles\LeetCode.dir\ /FS -c E:\LeetCode\src\leetcode\editor\cn\Q453.cpp
+CMakeFiles\LeetCode.dir\src\test.cpp.obj: CMakeFiles\LeetCode.dir\flags.make
+CMakeFiles\LeetCode.dir\src\test.cpp.obj: E:\LeetCode\src\test.cpp
+CMakeFiles\LeetCode.dir\src\test.cpp.obj: CMakeFiles\LeetCode.dir\compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\LeetCode\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/LeetCode.dir/src/test.cpp.obj"
+	$(CMAKE_COMMAND) -E cmake_cl_compile_depends --dep-file=CMakeFiles\LeetCode.dir\src\test.cpp.obj.d --working-dir=E:\LeetCode\cmake-build-debug --filter-prefix="注意: 包含文件:  " -- "C:\PROGRA~2\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\bin\Hostx86\x86\cl.exe" @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /showIncludes /FoCMakeFiles\LeetCode.dir\src\test.cpp.obj /FdCMakeFiles\LeetCode.dir\ /FS -c E:\LeetCode\src\test.cpp
 <<
 
-CMakeFiles\LeetCode.dir\src\leetcode\editor\cn\Q453.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/LeetCode.dir/src/leetcode/editor/cn/Q453.cpp.i"
-	"C:\PROGRA~2\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\bin\Hostx86\x86\cl.exe" > CMakeFiles\LeetCode.dir\src\leetcode\editor\cn\Q453.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\LeetCode\src\leetcode\editor\cn\Q453.cpp
+CMakeFiles\LeetCode.dir\src\test.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/LeetCode.dir/src/test.cpp.i"
+	"C:\PROGRA~2\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\bin\Hostx86\x86\cl.exe" > CMakeFiles\LeetCode.dir\src\test.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\LeetCode\src\test.cpp
 <<
 
-CMakeFiles\LeetCode.dir\src\leetcode\editor\cn\Q453.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/LeetCode.dir/src/leetcode/editor/cn/Q453.cpp.s"
+CMakeFiles\LeetCode.dir\src\test.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/LeetCode.dir/src/test.cpp.s"
 	"C:\PROGRA~2\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\bin\Hostx86\x86\cl.exe" @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\LeetCode.dir\src\leetcode\editor\cn\Q453.cpp.s /c E:\LeetCode\src\leetcode\editor\cn\Q453.cpp
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\LeetCode.dir\src\test.cpp.s /c E:\LeetCode\src\test.cpp
 <<
 
 # Object files for target LeetCode
 LeetCode_OBJECTS = \
-"CMakeFiles\LeetCode.dir\src\leetcode\editor\cn\Q453.cpp.obj"
+"CMakeFiles\LeetCode.dir\src\test.cpp.obj"
 
 # External object files for target LeetCode
 LeetCode_EXTERNAL_OBJECTS =
 
-LeetCode.exe: CMakeFiles\LeetCode.dir\src\leetcode\editor\cn\Q453.cpp.obj
+LeetCode.exe: CMakeFiles\LeetCode.dir\src\test.cpp.obj
 LeetCode.exe: CMakeFiles\LeetCode.dir\build.make
 LeetCode.exe: CMakeFiles\LeetCode.dir\objects1
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=E:\LeetCode\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable LeetCode.exe"

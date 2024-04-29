@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "E:/LeetCode/src/leetcode/editor/cn/Q453.cpp" "CMakeFiles/LeetCode.dir/src/leetcode/editor/cn/Q453.cpp.obj" "msvc" "CMakeFiles/LeetCode.dir/src/leetcode/editor/cn/Q453.cpp.obj.d"
+  "E:/LeetCode/src/test.cpp" "CMakeFiles/LeetCode.dir/src/test.cpp.obj" "msvc" "CMakeFiles/LeetCode.dir/src/test.cpp.obj.d"
   )
 
 # Targets to which this target links.

@@ -118,29 +118,29 @@ LeetCode\fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\LeetCode.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\LeetCode.dir\build
 .PHONY : LeetCode\fast
 
-src\leetcode\editor\cn\Q453.obj: src\leetcode\editor\cn\Q453.cpp.obj
-.PHONY : src\leetcode\editor\cn\Q453.obj
+src\test.obj: src\test.cpp.obj
+.PHONY : src\test.obj
 
 # target to build an object file
-src\leetcode\editor\cn\Q453.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\LeetCode.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\LeetCode.dir\src\leetcode\editor\cn\Q453.cpp.obj
-.PHONY : src\leetcode\editor\cn\Q453.cpp.obj
+src\test.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LeetCode.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\LeetCode.dir\src\test.cpp.obj
+.PHONY : src\test.cpp.obj
 
-src\leetcode\editor\cn\Q453.i: src\leetcode\editor\cn\Q453.cpp.i
-.PHONY : src\leetcode\editor\cn\Q453.i
+src\test.i: src\test.cpp.i
+.PHONY : src\test.i
 
 # target to preprocess a source file
-src\leetcode\editor\cn\Q453.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\LeetCode.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\LeetCode.dir\src\leetcode\editor\cn\Q453.cpp.i
-.PHONY : src\leetcode\editor\cn\Q453.cpp.i
+src\test.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LeetCode.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\LeetCode.dir\src\test.cpp.i
+.PHONY : src\test.cpp.i
 
-src\leetcode\editor\cn\Q453.s: src\leetcode\editor\cn\Q453.cpp.s
-.PHONY : src\leetcode\editor\cn\Q453.s
+src\test.s: src\test.cpp.s
+.PHONY : src\test.s
 
 # target to generate assembly for a file
-src\leetcode\editor\cn\Q453.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\LeetCode.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\LeetCode.dir\src\leetcode\editor\cn\Q453.cpp.s
-.PHONY : src\leetcode\editor\cn\Q453.cpp.s
+src\test.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LeetCode.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\LeetCode.dir\src\test.cpp.s
+.PHONY : src\test.cpp.s
 
 # Help Target
 help:
@@ -151,9 +151,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... LeetCode
-	@echo ... src/leetcode/editor/cn/Q453.obj
-	@echo ... src/leetcode/editor/cn/Q453.i
-	@echo ... src/leetcode/editor/cn/Q453.s
+	@echo ... src/test.obj
+	@echo ... src/test.i
+	@echo ... src/test.s
 .PHONY : help
 
 

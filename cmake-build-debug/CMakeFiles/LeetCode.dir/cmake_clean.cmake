@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/LeetCode.dir/src/leetcode/editor/cn/Q453.cpp.obj"
-  "CMakeFiles/LeetCode.dir/src/leetcode/editor/cn/Q453.cpp.obj.d"
+  "CMakeFiles/LeetCode.dir/src/test.cpp.obj"
+  "CMakeFiles/LeetCode.dir/src/test.cpp.obj.d"
   "LeetCode.exe"
   "LeetCode.exe.manifest"
   "LeetCode.lib"
