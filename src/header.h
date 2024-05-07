@@ -18,6 +18,8 @@
 #include <set>
 #include <stack>
 #include "bitset"
+#include <deque>
+#include <sstream>
 
 using namespace std;
 
